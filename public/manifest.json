@@ -1,0 +1,21 @@
+{
+  "name": "92Lottery - Trò chơi trực tuyến hấp dẫn",
+  "short_name": "92Lottery",
+  "description": "92Lottery - Trang web trò chơi trực tuyến với nhiều phần thưởng hấp dẫn",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#bc2022",
+  "icons": [
+    {
+      "src": "/images/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

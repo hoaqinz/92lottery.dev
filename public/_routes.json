@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "include": ["/*"],
+  "exclude": [
+    "/_next/*",
+    "/api/*",
+    "/_vercel/*",
+    "/_error",
+    "/_404",
+    "/404",
+    "/500",
+    "/*.json",
+    "/*.xml",
+    "/*.txt",
+    "/*.ico",
+    "/*.png",
+    "/*.svg",
+    "/*.jpg",
+    "/*.jpeg",
+    "/*.gif",
+    "/*.webp"
+  ]
+}
