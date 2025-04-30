@@ -8,7 +8,5 @@ NODE_VERSION = "18.17.0"
 [site]
 bucket = ".next"
 
-[[redirects]]
-from = "/*"
-to = "/index.html"
-status = 200 
+[functions]
+directory = ".next/server/pages" 
