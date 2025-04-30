@@ -3,17 +3,12 @@ compatibility_date = "2024-01-01"
 
 [build]
 command = "npm install --legacy-peer-deps && npm run build"
-output = ".next"
 
 [env]
 NODE_VERSION = "18.17.0"
 
 [site]
 bucket = ".next"
-
-[env.production]
-name = "92lottery-dev"
-route = "92lottery-dev.pages.dev/*"
 
 [pages]
 pages_build_output_dir = ".next"
