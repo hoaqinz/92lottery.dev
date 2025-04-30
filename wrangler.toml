@@ -14,3 +14,6 @@ bucket = ".next"
 [env.production]
 name = "92lottery-dev"
 route = "92lottery-dev.pages.dev/*"
+
+[pages]
+pages_build_output_dir = ".next"
