@@ -4,9 +4,6 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: false,
 
-  // Cấu hình cho Cloudflare Pages
-  output: 'export',
-
   // Cấu hình cho images
   images: {
     unoptimized: true,

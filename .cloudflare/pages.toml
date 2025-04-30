@@ -1,12 +1,12 @@
 [build]
 command = "npm install --legacy-peer-deps && npm run build"
-output = "out"
+output = ".next"
 
 [build.environment]
 NODE_VERSION = "18.17.0"
 
 [site]
-bucket = "out"
+bucket = ".next"
 
 [[redirects]]
 from = "/*"
