@@ -6,7 +6,6 @@ const nextConfig = {
 
   // Cấu hình cho Cloudflare Pages
   output: 'export',
-  distDir: '.next',
 
   // Cấu hình cho images
   images: {
@@ -21,10 +20,10 @@ const nextConfig = {
 
   // Bỏ qua lỗi
   typescript: {
-    ignoreBuildErrors: true,
+    ignoreBuildErrors: false,
   },
   eslint: {
-    ignoreDuringBuilds: true,
+    ignoreDuringBuilds: false,
   },
 };
 

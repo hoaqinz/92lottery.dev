@@ -1,10 +1,12 @@
 name = "92lottery"
-type = "webpack"
-account_id = ""
-workers_dev = true
-route = ""
-zone_id = ""
+compatibility_date = "2023-06-28"
+compatibility_flags = ["nodejs_compat"]
+
+[build]
+command = "npm run build"
 
 [site]
 bucket = ".next"
-entry-point = ".cloudflare/workers-site"
+
+[env]
+NODE_VERSION = "18.17.1"

@@ -18,3 +18,9 @@ route = "*"
 [env.staging]
 name = "staging"
 route = "staging.*"
+
+# Configure Pages
+[pages]
+build_output_directory = ".next"
+include_html_extension = false
+assets_directory = ".next/static"
