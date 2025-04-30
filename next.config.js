@@ -24,16 +24,6 @@ const nextConfig = {
     ignoreDuringBuilds: false,
   },
 
-  // Cấu hình rewrites
-  async rewrites() {
-    return [
-      {
-        source: '/:path*',
-        destination: '/:path*',
-      },
-    ];
-  },
-
   // Cấu hình cho Node.js 18
   webpack: (config, { isServer }) => {
     if (!isServer) {
