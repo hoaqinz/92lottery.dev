@@ -21,8 +21,8 @@ export function useClientOnly<T>(initialValue: T): [T, boolean] {
  * Custom hook to ensure data is only generated on the client side
  * @param dataFn Function that generates data (should only run on client)
  */
-export function useClientData<T>(dataFn: () => T): [T | null, boolean] {
-  const [data, setData] = useState<T | null>(null);
+export function useClientData<T>(dataFn: () => T): [T, boolean] {
+  const [data, setData] = useState<T>(dataFn());
   const [isMounted, setIsMounted] = useState(false);
 
   useEffect(() => {

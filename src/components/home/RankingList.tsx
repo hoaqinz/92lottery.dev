@@ -6,7 +6,7 @@ import { useClientData } from "@/lib/hooks/useClientOnly";
 import { generateRankingData, topThreeWinners, podiumImage } from "@/lib/data";
 
 export default function RankingList() {
-  const [rankings, isMounted] = useClientData(() => generateRankingData(10));
+  const [rankings, isMounted] = useClientData(() => generateRankingData());
   const listRef = useRef<HTMLUListElement>(null);
   const [currentPosition, setCurrentPosition] = useState(0);
   const [autoScrollEnabled, setAutoScrollEnabled] = useState(true);
