@@ -22,6 +22,16 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: false,
   },
+
+  // Cấu hình rewrites
+  async rewrites() {
+    return [
+      {
+        source: '/:path*',
+        destination: '/:path*',
+      },
+    ];
+  },
 };
 
 module.exports = nextConfig;
