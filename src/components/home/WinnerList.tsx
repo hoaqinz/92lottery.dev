@@ -4,8 +4,14 @@ import { useEffect, useState } from "react";
 import { useClientData } from "@/lib/hooks/useClientOnly";
 import { generateWinnerData } from "@/lib/data";
 
+interface Winner {
+  id: number;
+  userId: string;
+  amount: string;
+}
+
 export default function WinnerList() {
-  const [winners, setWinners] = useState([]);
+  const [winners, setWinners] = useState<Winner[]>([]);
   const [isMounted, setIsMounted] = useState(false);
 
   // Initialize data on client side
