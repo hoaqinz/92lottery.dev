@@ -1,15 +1,16 @@
 [build]
-command = "npm install && npm run build"
+command = "./cloudflare-build.sh"
 output = ".next"
 
 [build.environment]
-NODE_VERSION = "18.17.0"
+NODE_VERSION = "18.17.1"
+NPM_VERSION = "9.6.7"
 
 [site]
 bucket = ".next"
-entry-point = "src"
+entry-point = "."
 
 [[redirects]]
 from = "/*"
 to = "/index.html"
-status = 200 
+status = 200

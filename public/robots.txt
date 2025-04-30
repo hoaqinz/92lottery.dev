@@ -1,5 +1,9 @@
+# *
 User-agent: *
 Allow: /
 
-# Sitemap
+# Host
+Host: https://92lottery.dev
+
+# Sitemaps
 Sitemap: https://92lottery.dev/sitemap.xml

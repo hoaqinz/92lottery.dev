@@ -1,0 +1,10 @@
+name = "92lottery"
+type = "webpack"
+account_id = ""
+workers_dev = true
+route = ""
+zone_id = ""
+
+[site]
+bucket = ".next"
+entry-point = ".cloudflare/workers-site"
